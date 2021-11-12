@@ -12,7 +12,6 @@ contract NFT is ERC721URIStorage {
 
     // tokenIdsを追跡するためのカウンター
     Counters.Counter private _tokenIds;
-
     // NFTマーケットプレイスのアドレスを追加する
     address contractAddress;
 
@@ -25,7 +24,7 @@ contract NFT is ERC721URIStorage {
     }
 
     // memo: 文字列はバイト配列であり、それらはEVMのストレージを占有するので、関数を実行する際はガスを削減するためにmemoryを使用する
-    function minToken(string memory tokenURI) public returns (uint256) {
+    function mintToken(string memory tokenURI) public returns (uint256) {
         _tokenIds.increment();
         uint256 newItemId = _tokenIds.current();
 
