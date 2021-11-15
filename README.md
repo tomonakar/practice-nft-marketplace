@@ -1,9 +1,15 @@
-# Basic Sample Hardhat Project
+# NFTマーケットプレースのPractice
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## 環境
+- ethers
+- hardhat
+- waffle
+- OpenZeppelin
+- ipfs-http-client
+- next.js
+- tailwind
 
-Try running some of the following tasks:
-
+## hardhat command
 ```shell
 npx hardhat accounts
 npx hardhat compile
@@ -13,3 +19,5 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+## 構成
