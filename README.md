@@ -22,4 +22,4 @@ npx hardhat help
 
 ## 構成
 
-![スクリーンショット 2021-11-15 19 17 49](https://user-images.githubusercontent.com/29055497/141764447-adfae444-d2cf-4922-8adf-d512417bf157.png)
+![スクリーンショット 2021-11-15 19 38 25](https://user-images.githubusercontent.com/29055497/141767381-46ccd205-ba42-42d3-b5da-1267da619c2f.png)
